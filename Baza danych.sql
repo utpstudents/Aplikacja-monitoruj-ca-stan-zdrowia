@@ -9,5 +9,5 @@ temperatura FLOAT,
 cisnienie1 INT(3),
 cisnienie2 INT(3),
 tetno INT(3)
-PRIMARY KEY (id)); 
+PRIMARY KEY (id)); //to chyba nie jest potrzebne 
 
