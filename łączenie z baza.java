@@ -9,10 +9,9 @@ public Connection polacz() {
         try {
             Class.forName(DBDRIVER).newInstance();
             polaczenie = DriverManager.getConnection(DBURL, DBUSER, DBPASS);
-
+                
         } catch (ClassNotFoundException | InstantiationException | IllegalAccessException | SQLException ex) {
             JOptionPane.showMessageDialog(null, "bład bazy danych", "błąd", 0);
         }
-
         return polaczenie;
     }
